@@ -33,7 +33,7 @@ function Hero({ linkColor, nameColor }) {
                             |
                             &nbsp;
                             &nbsp;
-                            <Link href='https://github.com/sharbelxo' target="_blank" color={linkColor} underline="hover">About</Link>
+                            <Link href='/portfolio/about' color={linkColor} underline="hover">About</Link>
                         </Typography>
                         <br />
                         <Typography variant="body2" sx={{ fontSize: 30 }}>
@@ -75,7 +75,7 @@ function Hero({ linkColor, nameColor }) {
                             |
                             &nbsp;
                             &nbsp;
-                            <Link href='https://github.com/sharbelxo' target="_blank" color={linkColor} underline="hover">About</Link>
+                            <Link href='/portfolio/about' color={linkColor} underline="hover">About</Link>
                         </Typography>
                         <br />
                         <Typography variant="body2" sx={{ fontSize: 20 }}>
