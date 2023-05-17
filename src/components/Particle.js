@@ -67,7 +67,7 @@ function Particle({ bgValue, pValue }) {
                             default: "bounce",
                         },
                         random: false,
-                        speed: { min: 6, max: 7 },
+                        speed: { min: 3, max: 4 },
                         straight: false,
                     },
                     number: {
