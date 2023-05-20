@@ -59,7 +59,7 @@ function Hero({ linkColor, nameColor }) {
                             </Typography>
                         </Grid>
                         <Grid item>
-                            <Typography variant="body2" sx={{ fontSize: { xs: 30, md: 30 } }}>
+                            <Typography variant="body2" sx={{ fontSize: { xs: 30, md: 35 } }}>
                                 <Link href="https://www.linkedin.com/in/sharbelabousabha/" target="_blank" color={linkColor} underline="hover">
                                     About
                                 </Link>
