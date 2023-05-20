@@ -16,7 +16,7 @@ function Hero({ linkColor, nameColor }) {
                 alignItems: 'center',
                 mx: '2px',
                 transform: 'scale(0.8)',
-                paddingTop: { xs: 18, md: 15 }
+                paddingTop: { xs: 15, md: 15 }
             }}
         >
             <Grid container direction="column" alignItems="center" justifyContent="center" spacing={2}>
