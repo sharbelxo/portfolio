@@ -53,7 +53,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 export default function ToggleSwitch({ mode, handleToggle }) {
 
     return (
-        <div>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <MaterialUISwitch
                 sx={{ m: 1 }}
                 checked={mode}

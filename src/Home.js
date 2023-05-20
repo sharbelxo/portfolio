@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Particle from './components/Particle';
-
-import './styles.css';
-
 import ToggleSwitch from './components/ToggleSwitch';
-import { Grid } from '@mui/material';
 import Hero from './components/Hero';
 
 import { createTheme, ThemeProvider } from '@mui/material';
@@ -60,13 +56,8 @@ const Home = () => {
         <ThemeProvider theme={theme}>
             <>
                 <Particle bgValue={bgValue} pValue={pValue} />
-                <Grid container alignItems="center" justifyContent="center" style={{ maxHeight: '15vh' }}>
-                    <ToggleSwitch handleToggle={handleToggle} mode={value} />
-                </Grid>
-                <Grid container style={{ minHeight: '25vh' }}></Grid>
+                <ToggleSwitch handleToggle={handleToggle} mode={value} />
                 <Hero nameColor={nameColor} linkColor={linkColor} />
-                <Grid container style={{ minHeight: '25vh' }}></Grid>
-                <Grid container style={{ maxHeight: '5vh' }}></Grid>
             </>
         </ThemeProvider>
     );

@@ -8,8 +8,8 @@ function Particle({ bgValue, pValue }) {
         await loadFull(engine);
     }, []);
 
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container);
+    const particlesLoaded = useCallback(container => {
+        // console.log(container);
     }, []);
 
     return (
@@ -67,7 +67,7 @@ function Particle({ bgValue, pValue }) {
                             default: "bounce",
                         },
                         random: false,
-                        speed: { min: 3, max: 4 },
+                        speed: { min: 3, max: 3 },
                         straight: false,
                     },
                     number: {
