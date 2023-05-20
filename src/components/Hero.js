@@ -22,7 +22,7 @@ function Hero({ linkColor, nameColor }) {
             <Grid container direction="column" alignItems="center" justifyContent="center" spacing={2}>
                 {/* desktop view */}
                 <Grid item display={{ xs: 'block', md: 'none' }}>
-                    <Typography color={nameColor} sx={{ fontSize: 40, textAlign: "center", whiteSpace: "pre-line" }}>
+                    <Typography color={nameColor} sx={{ fontSize: 50, textAlign: "center", whiteSpace: "pre-line" }}>
                         S h a r b e l {"\n"}
                         A b o u {"\n"}
                         S a b h a
@@ -40,26 +40,26 @@ function Hero({ linkColor, nameColor }) {
                     <Grid container alignItems="center" justifyContent="center" direction="row" spacing={2}>
                         <Grid item>
                             <Link href="https://github.com/sharbelxo" target="_blank" color={linkColor}>
-                                <GitHub sx={{ fontSize: { xs: 20, md: 35 } }} />
+                                <GitHub sx={{ fontSize: { xs: 30, md: 35 } }} />
                             </Link>
                         </Grid>
                         <Grid item>
                             <Link href="https://www.linkedin.com/in/sharbelabousabha/" target="_blank" color={linkColor}>
-                                <LinkedIn sx={{ fontSize: { xs: 20, md: 35 } }} />
+                                <LinkedIn sx={{ fontSize: { xs: 30, md: 35 } }} />
                             </Link>
                         </Grid>
                         <Grid item>
                             <Link href="https://www.instagram.com/sharbelxo/" target="_blank" color={linkColor}>
-                                <Instagram sx={{ fontSize: { xs: 20, md: 35 } }} />
+                                <Instagram sx={{ fontSize: { xs: 30, md: 35 } }} />
                             </Link>
                         </Grid>
                         <Grid item>
-                            <Typography color={nameColor} sx={{ fontSize: { xs: 35, md: 50 } }}>
+                            <Typography color={nameColor} sx={{ fontSize: { xs: 40, md: 50 } }}>
                                 |
                             </Typography>
                         </Grid>
                         <Grid item>
-                            <Typography variant="body2" sx={{ fontSize: { xs: 20, md: 30 } }}>
+                            <Typography variant="body2" sx={{ fontSize: { xs: 30, md: 30 } }}>
                                 <Link href="https://www.linkedin.com/in/sharbelabousabha/" target="_blank" color={linkColor} underline="hover">
                                     About
                                 </Link>
@@ -67,25 +67,25 @@ function Hero({ linkColor, nameColor }) {
                         </Grid>
                     </Grid>
                     <br />
-                    <Typography variant="body2" sx={{ fontSize: { xs: 20, md: 30 } }}>
+                    <Typography variant="body2" sx={{ fontSize: { xs: 25, md: 30 } }}>
                         <Link href="https://nightventures.vercel.app/" target="_blank" color={linkColor} underline="hover">
                             N I G H T V E N T U R E S
                         </Link>
                     </Typography>
                     <br />
-                    <Typography variant="body2" sx={{ fontSize: { xs: 20, md: 30 } }}>
+                    <Typography variant="body2" sx={{ fontSize: { xs: 25, md: 30 } }}>
                         <Link href="" color={linkColor} underline="hover">
                             A R T R A D E
                         </Link>
                     </Typography>
                     <br />
-                    <Typography variant="body2" sx={{ fontSize: { xs: 20, md: 30 } }}>
+                    <Typography variant="body2" sx={{ fontSize: { xs: 25, md: 30 } }}>
                         <Link href="https://github.com/sharbelxo/NightOut" target="_blank" color={linkColor} underline="hover">
                             N I G H T O U T
                         </Link>
                     </Typography>
                     <br />
-                    <Typography variant="body2" sx={{ fontSize: { xs: 20, md: 30 } }}>
+                    <Typography variant="body2" sx={{ fontSize: { xs: 25, md: 30 } }}>
                         <Link href="https://github.com/sharbelxo/KLIYO" target="_blank" color={linkColor} underline="hover">
                             K L I Y O
                         </Link>
