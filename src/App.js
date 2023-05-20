@@ -6,7 +6,7 @@ export default function App() {
     return (
         <Router>
             <Routes>
-                <Route exact path='/portfolio' element={<Home />} />
+                <Route exact path='/' element={<Home />} />
             </Routes>
         </Router>
     )
