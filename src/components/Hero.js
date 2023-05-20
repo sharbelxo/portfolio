@@ -9,7 +9,6 @@ function Hero({ linkColor, nameColor }) {
     return (
         <Box
             sx={{
-                maxWidth: { xs: 600, md: 1500 },
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
